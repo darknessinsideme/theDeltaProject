@@ -1,0 +1,15 @@
+.cvBox {
+    height: 20%;
+    width: 100%;
+    border: 3px solid black;
+    margin-top: 1%
+}
+.profilePic{
+    float: left;
+    width:  9%;
+    height: 20%;
+}
+.cvSummery{
+    font-style: oblique;
+    padding-left: 11%
+}

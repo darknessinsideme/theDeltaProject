@@ -3,10 +3,11 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import App from './App';
 import Login from './components/signInOrUp/login'
 import SignUp from './components/signInOrUp/signUp'
+import PdfViwer from './components/pdfViwer/pdfV'
 
 
 
-class Apps extends Component {
+class Routes extends Component {
     render() {
       return (
         <BrowserRouter>
@@ -15,6 +16,7 @@ class Apps extends Component {
               <Route path="/" component={App} exact />
               <Route path="/login" component={Login} />
               <Route path="/signup" component={SignUp} />
+              <Route path="/pdf" component={PdfViwer} />
               <Route component={Error} />
             </Switch>
           </div>
@@ -23,4 +25,4 @@ class Apps extends Component {
     }
   };
   
-  export default Apps; 
+  export default Routes; 

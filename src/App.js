@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {Sidebar} from './components/sidebar/sidebar';
 import TopNav from './components/topNavigation/topNav';
-import Body from './components/body/box';
+import Body from './components/body/body';
 import Data from './components/body/data/cvSunmmaryInfo'
 class App extends Component {
   constructor(){
